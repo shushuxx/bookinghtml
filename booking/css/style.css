@@ -1,0 +1,218 @@
+:root {
+    --primary-color: #5DEC96;
+    --secondary-color: #6E7491;;
+    --third-color: #7C8DB0;
+    --white-color: white;
+    --text-color: #0e0d0d96;
+    --text-gray: #999;
+    --black-color: black;
+    --primary-font: 'Poppins', sans-serif;
+}
+
+
+h4 {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--secondary-color);
+}
+
+h5 {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+p {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-btn {
+    background: var(--primary-color);
+    color: var(--white-color);
+    border: 1px solid var(--primary-color);
+    padding: 4px 18px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.6s ease-in-out;
+    font-family: var(--primary-font);
+    border-radius: 4px;
+}
+
+.main-btn:hover {
+    background: var(--white-color);
+    border: 1px solid var(--white-color);
+    color: var(--primary-color);
+}
+
+.white-btn {
+    background: var(--white-color);
+    color: var(--primary-color);
+    border: 1px solid var(--white-color);
+    padding: 4px 18px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.6s ease-in-out;
+    font-family: var(--primary-font);
+    border-radius: 4px;
+}
+
+.white-btn:hover {
+    background: var(--primary-color);
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+}
+
+span{
+    color: var(--primary-color);
+}
+
+ul {
+    list-style: none;
+}
+
+.modal-animation {
+  transform:matrix(0.866,0.5,-0.5,0.866,0,0);
+  opacity: 0;
+  transition: 0.4s all 0s;
+}
+
+.modal-animation.show {
+    opacity: 1;
+    /* transform: scale(1)!important; */
+    transform:matrix(0.866,0.5,-0.5,0.866,0,0);
+    transform:none;
+}
+
+
+
+/* ========================
+        Header Design
+=========================*/
+header {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--third-color);
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: var(--primary-color);
+}
+
+.active {
+    color: var(--primary-color) !important;
+}
+
+.signIn {
+    cursor: pointer;
+}
+
+/* ====================
+    Sign UP Modal
+=======================*/
+.signup {
+    color: var(--third-color);
+}
+
+.signup h4{
+    font-size: 24px;
+    color: var(--secondary-color);
+}
+
+.signup p{
+    font-size: 18px;
+    color: var(--third-color)
+}
+
+
+/* ====================
+        Hero Section
+=======================*/
+#hero {
+    background: linear-gradient(0deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 57%)), url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero {
+    padding: 150px 0;
+}
+
+.hero h1 {
+    color: var(--white-color);
+    font-size: 66px;
+    font-family: var(--primary-font);
+    line-height: 56px;
+    font-weight: 700;
+    margin-bottom: 69px;
+}
+
+.search__form {}
+
+.search__form  .form-control {
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.search__form  .input-group-text {
+    background: none !important;
+    border: none !important;
+
+}
+
+/* ========================
+        Hotels section
+=========================*/
+.hotels .card {
+    border-radius: 15px;
+}
+
+.hotels .card img {
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+}
+
+
+
+/* ========================
+        Review section
+=========================*/
+
+.review h5 {
+    line-height: 0px;
+}
+.review p {
+    line-height: 23px;
+}
+
+/* ========================
+        Footer section
+=========================*/
+
+footer ul li a{
+    color: var(--secondary-color);
+}
+
+
+.footer_bottom a {
+    font-size: 20px;
+    color: var(--secondary-color);
+}
