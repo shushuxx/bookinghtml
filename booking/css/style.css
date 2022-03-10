@@ -144,19 +144,19 @@ header {
 
 
 /* ====================
-        Hero Section
+        header Section
 =======================*/
-#hero {
-    background: linear-gradient(0deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 57%)), url(../images/hero-bg.jpg);
+#header {
+    background: linear-gradient(0deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 17%)), url(../images/hero-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.hero {
+.header {
     padding: 150px 0;
 }
 
-.hero h1 {
+.header h1 {
     color: var(--white-color);
     font-size: 66px;
     font-family: var(--primary-font);
@@ -193,13 +193,13 @@ header {
 
 
 /* ========================
-        Review section
+        notice section
 =========================*/
 
-.review h5 {
+.notice h5 {
     line-height: 0px;
 }
-.review p {
+.notice p {
     line-height: 23px;
 }
 
